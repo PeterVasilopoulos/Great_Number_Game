@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#instructions {
+    text-align: center;
+}
+
+#instructions > * {
+    margin: 20px;
+}
+
+.incorrect, .correct {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    color: white;
+    margin: 0 auto 50px;
+}
+
+.incorrect {
+    background-color: rgb(255, 71, 71);
+}
+
+.correct {
+    background-color: rgb(83, 181, 83);
+}
+
+.high, .low, .goodguess {
+    color: white;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form > * {
+    display: inline-block;
+}
+
+a {
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
