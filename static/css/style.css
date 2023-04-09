@@ -17,6 +17,7 @@
     border: 2px solid black;
     color: white;
     margin: 0 auto 50px;
+    text-align: center;
 }
 
 .incorrect {
@@ -27,9 +28,11 @@
     background-color: rgb(83, 181, 83);
 }
 
-.high, .low, .goodguess {
+.high, .low, .good-guess {
     color: white;
     font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 form {
@@ -46,4 +49,6 @@ a {
     padding: 10px 20px;
     border: 2px solid black;
     box-shadow: 2px 2px 2px black;
+    background-color: white;
+    text-decoration: none;
 }

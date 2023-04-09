@@ -19,6 +19,7 @@
         {% if session['status'] == True %}
             <div class="correct">
                 <p class="good-guess">{{session['random']}} was the number!</p>
+                <a href="/reset">Play again!</a>
             </div>
         {% else %}
             <div class="incorrect">
@@ -36,6 +37,5 @@
         <button>Submit</button>
     </form>
 
-    <a href="/reset">Reset Game</a>
 </body>
 </html>
