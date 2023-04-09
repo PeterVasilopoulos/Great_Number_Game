@@ -13,7 +13,7 @@ def num_game():
 
 @app.route('/guess', methods=["POST"])
 def guess():
-    session['guess'] = request.form['guess']
+    session['guess'] = int(request.form['guess'])
     if session['guess'] == session['random']:
         session['status'] = True
     return redirect('/')
